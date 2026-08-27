@@ -1,5 +1,5 @@
 Risk ID,Asset,Threat,Vulnerability,Risk Description,Likelihood,Impact,Inherent Risk,Inherent Risk Rating,Existing Controls,Residual Risk,Risk Owner,Risk Treatment,Status
-R-001,Employee Laptops,Malware or ransomware,Unpatched systems or weak endpoint protection,Malware infects an employee laptop and spreads across the corporate environment,4,5,20,Critical,Endpoint protection and antivirus,12,IT Operations,Mitigate,Open,
+R-001,Employee Laptops,Malware or ransomware,Unpatched systems or weak endpoint protection,Malware infects an employee laptop and spreads across the corporate environment,4,5,20,Critical,Endpoint protection and antivirus,12,IT Operations,Mitigate,Open
 R-002,Customer Database,Unauthorized access,Weak access controls or excessive privileges,Unauthorized users may access sensitive customer and financial information,3,5,15,High,MFA and role-based access control,8,Security Team,Mitigate,Open
 R-003,AWS Cloud Environment,Data exposure,Cloud misconfiguration,Incorrect cloud configuration may expose sensitive systems or data to the internet,3,5,15,High,AWS security groups and monitoring,9,Cloud Operations,Mitigate,Open
 R-004,Microsoft 365,Phishing,User susceptibility and weak authentication,An attacker may steal employee credentials through phishing and access company email or files,4,4,16,High,MFA and email filtering,8,IT Security,Mitigate,Open
