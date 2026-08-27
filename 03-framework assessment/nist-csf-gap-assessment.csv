@@ -1,1 +1,6 @@
-
+Risk ID,Risk Scenario,NIST CSF Function,Current State,Gap,Recommended Action,Priority
+R-001,Malware spreads from employee laptop,Protect,Endpoint protection is installed but controls are limited,Endpoint protection alone may not prevent lateral movement,Add EDR patch management least privilege and network segmentation,Critical
+R-002,Unauthorized access to customer database,Protect,MFA and role-based access control are in place,Access reviews may not be performed regularly,Implement quarterly access reviews and privileged access monitoring,High
+R-003,AWS misconfiguration exposes sensitive data,Protect,Security groups and monitoring are in place,Cloud configuration reviews are not formally documented,Establish regular cloud configuration reviews and CSPM monitoring,High
+R-004,Phishing compromises Microsoft 365 account,Protect,MFA and email filtering are enabled,Users may still approve malicious requests,Add phishing training conditional access and stronger authentication controls,High
+R-005,Third-party payment provider suffers security breach,Govern,Vendor contract and annual review exist,Vendor monitoring is limited between annual reviews,Create formal third-party risk monitoring and reassessment process,High
