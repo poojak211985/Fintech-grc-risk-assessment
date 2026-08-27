@@ -3,7 +3,7 @@ A-001,Customer Payment Application,Application,Web application used by customers
 A-002,Customer Database,Database,Stores customer personal and financial information,Restricted,Critical,Database Team
 A-003,AWS Cloud Environment,Cloud Infrastructure,Hosts company applications and infrastructure,Confidential,Critical,Cloud Operations
 A-004,Microsoft 365,SaaS,Email collaboration and document sharing platform,Confidential,High,IT Operations
-A-005,Employee Laptops,Endpoint,Company-issued devices used by employees,Internal,High,IT Operations
+A-005,Employee Laptops,Endpoint,Company-issued devices used by employees,Internal,Critical,IT Operations
 A-006,GitHub,Source Code Repository,Stores application source code and configuration files,Confidential,High,Engineering
 A-007,Identity Management System,Identity System,Manages employee authentication and access,Restricted,Critical,Security Team
 A-008,Customer Support Platform,SaaS,Used by support staff to manage customer requests,Confidential,Medium,Customer Support
